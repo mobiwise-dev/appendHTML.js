@@ -14,17 +14,13 @@ This script allows you to inject external content form HTML files into elements 
 1.  Include the script on your webpage.
 
 ```html
-`
 <script src="path/to/appendHTML.js"></script>
-`
 ```
 
 2.  Add the "addHTML" attribute to the elements on your webpage where you want to load the HTML files. The value of the attribute should be the URL of the HTML file you want to load.
 
 ```html
-`
 <div addHTML="path/to/file.html"></div>
-`
 ```
 
 3.  The script will automatically search for elements with the "addHTML" attribute and load the HTML files into them.
