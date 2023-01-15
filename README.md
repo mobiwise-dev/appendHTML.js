@@ -1,5 +1,13 @@
 
 # appendHTML.js
+<div>
+  <img src="https://img.shields.io/github/stars/mobiwise-dev/appendHTML.js">
+  <img src="https://img.shields.io/github/downloads/mobiwise-dev/appendHTML.js/total">
+  <img src="https://img.shields.io/github/size/mobiwise-dev/appendHTML.js/appendHTML.js">
+  
+
+</div>
+
 
 This script allows you to inject external content form HTML files into elements on your webpage. For example, it can be particularly useful for loading a common header, sidebar or footer for a static website.
 
@@ -33,5 +41,7 @@ This script allows you to inject external content form HTML files into elements 
 
 This script uses the `fetch` API and the `Map` object, which are both supported by modern browsers.
 
-## Inspired by :
-[includerjs](https://github.com/lassv/includerjs)
+## Support Me
+<a href="https://ko-fi.com/mobiwise">
+  <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="mobiwise" />
+</a>
