@@ -1,3 +1,4 @@
+
 # appendHTML.js
 
 This script allows you to inject external content form HTML files into elements on your webpage. For example, it can be particularly useful for loading a common header, sidebar or footer for a static website.
@@ -33,4 +34,4 @@ This script allows you to inject external content form HTML files into elements 
 This script uses the `fetch` API and the `Map` object, which are both supported by modern browsers.
 
 ## Inspired by :
-<a href="https://github.com/lassv/includerjs">includerjs</a>
+[includerjs](https://github.com/lassv/includerjs)
