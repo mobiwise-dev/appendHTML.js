@@ -7,11 +7,14 @@ This script allows you to inject external content form HTML files into elements 
 
 1.  Add the "addHTML" attribute to the elements on your webpage where you want to load the HTML files. The value of the attribute should be the URL of the HTML file you want to load.
 
+```html
 `<div addHTML="path/to/file.html"></div>` 
+```
 
 2.  Include the script on your webpage.
-
+```html
 `<script src="path/to/appendHTML.js"></script>` 
+```
 
 3.  The script will automatically search for elements with the "addHTML" attribute and load the HTML files into them.
 
@@ -28,14 +31,6 @@ This script allows you to inject external content form HTML files into elements 
 ## Dependencies
 
 This script uses the `fetch` API and the `Map` object, which are both supported by modern browsers.
-
-## Example
-
-You can find an example in the `example` folder in this repository.
-
-## License
-
-This script is available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Inspired by :
 <a href="https://github.com/lassv/includerjs">includerjs</a>
