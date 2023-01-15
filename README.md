@@ -2,7 +2,7 @@
 
 <div>
   <img src="https://img.shields.io/github/stars/mobiwise-dev/appendHTML.js">
-  <img src="https://img.shields.io/github/watchers/mobiwise-dev/appendHTML.j">
+  <img src="https://img.shields.io/github/watchers/mobiwise-dev/appendHTML.js">
   <img src="https://img.shields.io/github/downloads/mobiwise-dev/appendHTML.js/total">
   <img src="https://img.shields.io/github/size/mobiwise-dev/appendHTML.js/appendHTML.js">
 </div>
