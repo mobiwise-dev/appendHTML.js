@@ -46,5 +46,5 @@ This script uses the `fetch` API and the `Map` object, which are both supported 
 ## Support Me
 
 <a href="https://ko-fi.com/mobiwise">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="mobiwise" />
+  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="mobiwise" target="_blank"/>
 </a>
