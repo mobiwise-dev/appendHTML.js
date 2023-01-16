@@ -5,6 +5,9 @@
   <img src="https://img.shields.io/github/watchers/mobiwise-dev/appendHTML.js">
   <img src="https://img.shields.io/github/downloads/mobiwise-dev/appendHTML.js/total">
   <img src="https://img.shields.io/github/size/mobiwise-dev/appendHTML.js/appendHTML.js">
+  <a href="https://ko-fi.com/mobiwise" target="_blank">
+  <img src="https://img.shields.io/badge/Support%20Me-Buy%20Me%20a%20Coffee-red">
+  </a>
 </div>
 
 This script allows you to inject external content form HTML files into elements on your webpage. For example, it can be particularly useful for loading a common header, sidebar or footer for a static website.
