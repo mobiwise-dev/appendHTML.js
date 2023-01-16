@@ -10,7 +10,7 @@
   </a>
 </div>
 
-This script allows you to inject external content form HTML files into elements on your webpage. For example, it can be particularly useful for loading a common header, sidebar or footer for a static website.
+This script allows you to inject external content from HTML files into elements on your webpage. For example, it can be particularly useful for loading a common header, sidebar or footer for a static website.
 
 ## How to use
 
