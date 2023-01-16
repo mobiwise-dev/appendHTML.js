@@ -1,3 +1,10 @@
+// ███╗   ███╗ ██████╗ ██████╗ ██╗██╗    ██╗██╗███████╗███████╗
+// ████╗ ████║██╔═══██╗██╔══██╗██║██║    ██║██║██╔════╝██╔════╝
+// ██╔████╔██║██║   ██║██████╔╝██║██║ █╗ ██║██║███████╗█████╗
+// ██║╚██╔╝██║██║   ██║██╔══██╗██║██║███╗██║██║╚════██║██╔══╝
+// ██║ ╚═╝ ██║╚██████╔╝██████╔╝██║╚███╔███╔╝██║███████║███████╗
+// ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═╝ ╚══╝╚══╝ ╚═╝╚══════╝╚══════╝
+
 // Create a new Map to store the cached HTML files
 let cache = new Map();
 
@@ -11,14 +18,14 @@ function isInViewport(element) {
 
 // Asynchronous function to append the HTML to the element
 async function appendHTML() {
-  // Get all elements with the "addHTML" attribute
-  const elements = document.querySelectorAll("[addHTML]");
+  // Get all elements with the "data-src" attribute
+  const elements = document.querySelectorAll("[data-src]");
   // Loop through the elements
   for (const element of elements) {
     // Check if the element is in the viewport or if it already has the HTML loaded
-    if (isInViewport(element) || !element.hasAttribute("addHTML")) {
-      // Get the file URL from the "addHTML" attribute
-      const file = element.getAttribute("addHTML");
+    if (isInViewport(element) || !element.hasAttribute("data-src")) {
+      // Get the file URL from the "data-src" attribute
+      const file = element.getAttribute("data-src");
       let html;
       // Check if the file is already in the cache
       if (cache.has(file)) {
@@ -45,8 +52,8 @@ async function appendHTML() {
       }
       // Set the innerHTML of the element to the HTML
       element.innerHTML = html;
-      // Remove the "addHTML" attribute
-      element.removeAttribute("addHTML");
+      // Remove the "data-src" attribute
+      element.removeAttribute("data-src");
     }
   }
 }
